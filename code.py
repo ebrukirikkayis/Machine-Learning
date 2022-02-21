@@ -58,7 +58,73 @@ data.head(10)
 data.columns
 
 
+# In[31]:
+
+
+#line Plot
+
+data.Speed.plot(kind='line', color='g', label='Speed', linewidth=1, alpha=0.5, grid=True, linestyle=':')
+
+data.Defense.plot(color='r', label='Defense', linewidth=1, alpha=0.5, grid=True, linestyle='-.')
+
+plt.legend(loc='upper right')  #legend= puts label into plot
+plt.xlabel('x axis')           #label= name of label
+plt.ylabel('y axis')
+plt.title('Line plot')         #Title= title of plot
+plt.show()
+
+
+# In[22]:
+
+
+#Scatter Plot
+#x=attack, y=defense
+
+data.plot(kind='scatter', x='Attack', y='Defense', alpha=0.5, color='red')
+plt.xlabel('Attack')
+plt.ylabel('Defense')
+plt.title('Attack Defense Scatter Plot')
+
+
+# In[41]:
+
+
+#Histogram
+#bins= number of bar in figure
+
+data.Speed.plot(kind='hist', bins=50, figsize=(12,12))
+plt.show()
+
+
+# In[42]:
+
+
+#clf()= cleans it up again you can start a fresh
+data.Speed.plot(kind='hist', bins=50)
+plt.clf()
+#we cannot see plot due to clf()
+
+
+# In[43]:
+
+
+#DICTIONARY
+#Practice some other properties like keys(), values(), update, add, check, remove key, remove all entries, remove dictionary.
+
+#1
+#create dictionary and look its keys and values
+
+dictionary={'spain': 'madrid', 'usa': 'vegas'}
+print(dictionary.keys())
+print(dictionary.values())
+
+
 # In[ ]:
+
+
+
+
+
 
 
 
