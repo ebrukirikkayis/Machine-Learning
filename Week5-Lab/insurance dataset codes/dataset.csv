@@ -1,0 +1,16 @@
+age;sex;bmi;children;smoker;region;charges
+19;female;33.77;0;yes;southwest;1688
+18;male;33.3;1;no;southwest;1726
+28;male;22.705;3;no;southwest;4449
+23;male;28.88;0;no;northwest;21984
+33;male;25.74;0;no;northwest;3867
+32;female;33.44;0;no;southwest;3757
+31;female;27.74;1;no;southwest;8241
+46;female;29.83;3;no;northwest;7282
+37;female;25.84;2;no;northwest;6406
+37;male;26.22;0;no;northwest;28923
+60;female;26.29;0;no;northwest;2721
+25;male;34.4;0;yes;southwest;27809
+62;female;39.82;0;no;southwest;1827
+23;male;42.13;0;no;southwest;11091
+56;female;24.60;0;no;southwest;39612
